@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-bold.ttf);  
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/rubik.ttf);  
+}
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../fonts/rubik_black.ttf);  
+}
+*{
+    font-family: "Lato", "PT Sans", "Arial", sans-serif;
+    font-size: 16px;
+    color: #1A212F;
+}
+h1{
+    font-family: "Rubik-Black", "PT Sans", "Arial", sans-serif;
+    font-size: 3.9rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+header>.wrapper{
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header ul li {
+    margin-right: 30px;
+}
+.main {
+    background: 
+    url('../images/mask.svg') no-repeat,
+    linear-gradient(90deg, rgb(248, 180, 79) 40%, rgba(255, 255, 255, 0) 60%), 
+    url('../images/kotik.png') no-repeat; 
+    height: 504px;
+    background-size: contain, auto, contain;
+    background-position-x: left, center, right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* .main .wrapper > *{
+    border: 1px solid red;
+} */
+.main span:first-child {
+    font-size: 0.88rem;
+    line-height: 1.1rem;
+    font-weight: 400;
+}
+.main span:last-child {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.main .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid #000; */
+}
+.booking {
+    height: 50px;
+    width: 260px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.booking img {
+    display: block;
+    margin: 7px;
+}
