@@ -32,6 +32,13 @@ h2{
     line-height: 2.7rem;
     font-weight: 700;
 }
+h3{
+    font-family: "Rubik", "PT Sans", "Arial", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+}
 .wrapper {
     max-width: 80%;
     margin: 0 auto;
@@ -119,8 +126,11 @@ header ul li {
 }
 .benefits {
     position: relative;
-    padding-top: 110px;
+    padding-top: 140px;
     text-align: center;
+}
+.benefits h2 {
+    margin: 0;
 }
 .paw-bg {
     position: absolute;   
@@ -133,7 +143,7 @@ header ul li {
     flex-wrap: wrap;
     flex-direction: column;
     height: 680px;
-
+    margin-top: 40px;
 }
 .block-benefit {
     background: #FFFFFF;
@@ -152,5 +162,11 @@ header ul li {
 }
 .block-benefit:nth-child(odd){
     margin-bottom: 20px;
+}
+.icon-benefit {
+    margin-bottom: 35px;
+}
+.block-benefit p{
+    margin-top: 20px;
 }
 
